@@ -1,0 +1,26 @@
+product_id,sku,product_name,category,brand,unit_price_pln
+101,AUR-TV-55,"Telewizor Aurora 55"" 4K",TV,Aurora,2299.00
+102,AUR-TV-65,"Telewizor Aurora 65"" OLED",TV,Aurora,4499.00
+103,SNY-TV-50,"Telewizor Sony 50"" LED",TV,Sony,1999.00
+104,AUR-PH-A1,Smartfon Aurora A1,Telefony,Aurora,1299.00
+105,AUR-PH-X3,Smartfon Aurora X3 Pro,Telefony,Aurora,2499.00
+106,SMS-PH-S24,Samsung Galaxy S24,Telefony,Samsung,3799.00
+107,APL-PH-15,iPhone 15,Telefony,Apple,4299.00
+108,AUR-LT-14,"Laptop Aurora 14"" i5",Komputery,Aurora,3199.00
+109,AUR-LT-16,"Laptop Aurora 16"" i7",Komputery,Aurora,5299.00
+110,LNV-LT-15,Lenovo IdeaPad 15,Komputery,Lenovo,2799.00
+111,AUR-HP-NC,Słuchawki Aurora Noise Cancel,Audio,Aurora,399.00
+112,SNY-HP-WH,Sony WH-1000XM5,Audio,Sony,1299.00
+113,AUR-SP-BT,Głośnik Bluetooth Aurora Mini,Audio,Aurora,149.00
+114,AUR-WM-9,Pralka Aurora 9kg,AGD,Aurora,1899.00
+115,BSH-WM-8,Pralka Bosch 8kg,AGD,Bosch,2499.00
+116,AUR-FR-300,Lodówka Aurora 300l,AGD,Aurora,2199.00
+117,AUR-MW-20,Mikrofalówka Aurora 20l,AGD,Aurora,349.00
+118,AUR-VC-CY,Odkurzacz Aurora Cyclone,AGD,Aurora,499.00
+119,AUR-KB-MX,Klawiatura mechaniczna Aurora,Akcesoria,Aurora,289.00
+120,AUR-MS-WL,Mysz bezprzewodowa Aurora,Akcesoria,Aurora,89.00
+121,AUR-CH-65,Ładowarka 65W Aurora,Akcesoria,Aurora,129.00
+122,AUR-CS-SIL,Etui silikonowe Aurora,Akcesoria,Aurora,49.00
+123,AUR-TB-11,"Tablet Aurora 11""",Komputery,Aurora,1599.00
+124,AUR-CAM-4K,Kamera sportowa Aurora 4K,Audio,Aurora,699.00
+125,AUR-WATCH,Smartwatch Aurora Fit,Telefony,Aurora,599.00

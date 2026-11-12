@@ -1,0 +1,9 @@
+customer_id,email,first_name,last_name,city,voivodeship,segment,signup_date,valid_from
+C0001,user001@aurora.example,Krzysztof,Kwiatkowska,Białystok,podlaskie,vip,2025-05-23,2026-01-20
+C0004,user004@aurora.example,Adam,Jankowska,Katowice,śląskie,vip,2025-02-25,2026-01-20
+C0009,user009@aurora.example,Natalia,Kozłowski,Katowice,śląskie,premium,2025-04-29,2026-01-20
+C0012,user012@aurora.example,Paweł,Wiśniewska,Białystok,podlaskie,vip,2025-03-30,2026-01-20
+C0018,user018@aurora.example,Paweł,Krawczyk,Gdańsk,pomorskie,vip,2025-09-30,2026-01-20
+C0023,user023@aurora.example,Karolina,Kwiatkowska,Wrocław,dolnośląskie,vip,2025-01-25,2026-01-20
+C0031,user031@aurora.example,Karolina,Szymański,Gdańsk,pomorskie,premium,2025-02-04,2026-01-20
+C0044,user044@aurora.example,Kasia,Jankowska,Warszawa,mazowieckie,vip,2025-12-06,2026-01-20

@@ -1,0 +1,23 @@
+# Local secrets and AWS/SSO credentials
+.env
+.env.*
+creds.json
+sso_token.json
+*.pem
+*.key
+*.p12
+.aws/
+
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+tools/.venv/
+
+# Editor & OS files
+.vscode/
+.idea/
+~$*
+.DS_Store
+desktop.ini
+Thumbs.db

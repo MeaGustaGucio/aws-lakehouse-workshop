@@ -1,0 +1,40 @@
+name: Verify Data, SQL & Lab Integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Markdown dependency for HTML viewer check
+        run: pip install Markdown
+
+      - name: Audit synthetic dataset & referential integrity
+        run: python tools/audit_data.py
+
+      - name: Audit SQL DDL lineage & file references
+        run: python tools/audit_links.py
+
+      - name: Audit deterministic SQL ordering
+        run: python tools/audit_order.py
+
+      - name: Audit SQL engine addressing & terminology rules
+        run: python tools/audit_text.py
+
+      - name: Compute & verify expected exercise results
+        run: python tools/expected_results.py
+
+      - name: Verify offline HTML viewer generation
+        run: python tools/build_sala_html.py
